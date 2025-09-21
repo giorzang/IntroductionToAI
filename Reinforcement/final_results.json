@@ -1,0 +1,23 @@
+{
+  "training": {
+    "datasets": 400,
+    "episodes": 400000,
+    "training_time_minutes": 317.9679078141848,
+    "final_avg_reward": 394.918
+  },
+  "evaluation": {
+    "test_datasets": 100,
+    "dqn_accuracy_mean": 12.106098132097744,
+    "dqn_accuracy_std": 8.780494386642928,
+    "dqn_accuracy_median": 9.399661519914684,
+    "dqn_accuracy_min": 1.0683760683760684,
+    "dqn_accuracy_max": 49.66555183946488,
+    "greedy_accuracy_mean": 99.0776008756272,
+    "greedy_accuracy_std": 1.3746170035711458
+  },
+  "model_info": {
+    "architecture": "3-layer DQN with 128 hidden units",
+    "max_items": 20,
+    "state_dim": 63
+  }
+}
